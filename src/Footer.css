@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #d0d8ff;
+  border-radius: 0.5rem;
+  padding: 2.5rem;
+}
+
+.social__links {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+.social__links:active {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
+
+.social__logo {
+  font-size: 1.3rem;
+  transition: 0.3 ease-in-out;
+}
+
+.social__logo:hover {
+  cursor: pointer;
+  color: #302ce9;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1024px) {
+  .footer {
+    margin: auto;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .social__links {
+    flex-direction: row;
+  }
+}

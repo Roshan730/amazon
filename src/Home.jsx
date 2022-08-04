@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Product from "./Product";
 import Data from "./Data";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
