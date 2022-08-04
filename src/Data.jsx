@@ -55,20 +55,7 @@ const Data = [
       "https://img.poorvika.com/cdn-cgi/image/width=1600,height=1600,quality=75/1600_JPG/Smart-Technology/Noise/Noise-ColorFit-Pro-3-Smartwatch/Noise-ColorFit-Pro-3-Smartwatch-Jet-Black-1.jpg",
     price: 4999,
   },
-  {
-    id: 9,
-    title: "Noise ColorFit Ultra 2 with 1.78(4.5cm) AMOLED Display",
-    image:
-      "https://img.poorvika.com/cdn-cgi/image/width=1600,height=1600,quality=75/1600_JPG/Smart-Technology/Noise/Noise-ColorFit-Pro-3-Smartwatch/Noise-ColorFit-Pro-3-Smartwatch-Jet-Black-1.jpg",
-    price: 4999,
-  },
-  {
-    id: 10,
-    title: "Noise ColorFit Ultra 2 with 1.78(4.5cm) AMOLED Display",
-    image:
-      "https://img.poorvika.com/cdn-cgi/image/width=1600,height=1600,quality=75/1600_JPG/Smart-Technology/Noise/Noise-ColorFit-Pro-3-Smartwatch/Noise-ColorFit-Pro-3-Smartwatch-Jet-Black-1.jpg",
-    price: 4999,
-  },
+
 ];
 
 export default Data;
