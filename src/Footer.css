@@ -1,15 +1,17 @@
 .footer {
   display: flex;
   justify-content: space-evenly;
-  background-color: #d0d8ff;
+  background-color:#131921;;
   border-radius: 0.5rem;
   padding: 2.5rem;
+  color: aliceblue;
 }
 
 .social__links {
   display: flex;
   list-style-type: none;
   gap: 2rem;
+  color: aliceblue;
 }
 
 .social__links:active {
