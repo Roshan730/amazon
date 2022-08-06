@@ -3,7 +3,6 @@ import "./Home.css";
 import Product from "./Product";
 import Data from "./Data";
 import Footer from "./Footer";
-import FilterPage from "./FilterPage";
 
 const Home = () => {
   return (
@@ -18,7 +17,7 @@ const Home = () => {
         />
         <div>
           <div className="home__row">
-            <FilterPage />
+            
             {Data.map((value) => {
               return (
                 <Product

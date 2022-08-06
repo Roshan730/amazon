@@ -50,7 +50,7 @@ const Payment = () => {
         setError(null);
         setProcessing(false);
 
-        history.replaceState("/order");
+        history.replace("/order");
       });
   };
 

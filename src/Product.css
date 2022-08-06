@@ -1,6 +1,7 @@
 .product {
   display: grid;
   margin-top: 5rem;
+  margin-left: 3rem;
   padding: 25px;
   width: 20rem;
   height: 400px;
